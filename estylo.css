@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+} 
+h1 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 50px;
+}   
+nav ul {
+    background-color: aqua;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+ nav li {
+    display:inline-flex
+ }
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 25px;
+    width: 150px;
+}
+nav li:hover{
+    background-color: black;
+}
+.contenedor {
+    margin-top: 100px;
+    display: flex;
+    padding: 25px;
+}
+.text {
+   padding-left: 25px;
+}  
+.carousel{
+    margin: 55px;
+    padding: 25px ;
+} 
+div.box{
+    text-align: center;
+    margin: 25px;
+    padding: 25px;
+    background-color: aqua;
+    border-radius: 10px;
+}
+div.redes{
+    text-align: center;
+}
